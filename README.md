@@ -1,7 +1,7 @@
 # LCD_I2C_ROSnode
 ROS node using a I2C LCD screen [Grove LCD color background 2x16](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight.html). 
 
-The node needs to run in the computer where the LCD screen is connected via I2C; for details on how to set this up, please check this related project [LCD_I2C](https://github.com/mmata-gcu/LCD_I2C).
+The node needs to run in the computer where the LCD screen is connected via I2C, and depends on the **i2c** linux library; for details on how to set this up, please check this related project [LCD_I2C](https://github.com/mmata-gcu/LCD_I2C).
 
 This node subscribes a new topic "**/LCDstring**" using _std_msgs/String_ messages to display custom text (16 characters max).
 
