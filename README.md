@@ -7,6 +7,8 @@ This node subscribes a new topic "**/LCDstring**" using _std_msgs/String_ messag
 
 The implemented behaviour is to keep printing the robot's IP address on the 1st line of the display, and any custom message received via the topic in the 2nd line (up to 16 characters, excess is discarded).
 
+![Example LCD output](IP_and_ROS.PNG)
+
 So far it handles just a "special" message (starting by '$') to change the display background colour, as _'$Color:R,G,B'_ (where R,G,B are colour components 0-255) i.e:
 
 `rostopic pub /LCDstring std_msgs/String '$Color:0,255,255'`
