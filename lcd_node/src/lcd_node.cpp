@@ -1,3 +1,4 @@
+//2022 Copyright (c) Mario Mata.  All right reserved. MIT License
 #include <ros/ros.h>
 #include "std_msgs/String.h"
 #include "lcd_i2c.h"
